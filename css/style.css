@@ -1,0 +1,156 @@
+/* ========================= NAVBAR STYLING ========================= */
+#top-nav{
+    background-color: #daac00;
+    padding: 1% 5%;
+    position: sticky;
+    top: 0;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(255 255 255);
+    padding-left: 26px;
+    font-size: 17px;
+}
+#myForm{
+    background-color: #fcc302;
+    border: 0;
+    border-radius: 0;
+    position: relative;
+    left: 2.875rem;
+    box-shadow: 5px 5px 5px #504b4b8c;
+}
+#search-button{
+    position: relative;
+    z-index: 99;
+    background-color: #00bec9;
+    color: white;
+    border: 0;
+}
+#myForm::placeholder{
+    color: #ffffff;
+}
+
+/* ======================================= BANNER STYLING ========================== */
+
+#banner{
+    padding: 5rem 0;
+    background-color: #fcc302;
+    color: white;
+}
+#banner-content{
+    margin-top: 5rem;
+}
+#banner-tagline{
+    font-size: 3.2rem;
+}
+#banner-para{
+    font-size: 1.2rem;
+}
+#mybtn-1{
+    background-color: #00bec9;
+    border: 2px solid #00bec9;
+    color: #ffffff;
+}
+#mybtn-2{
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    margin-left: 20px;
+}
+
+/* ============================= SERVICE SECTION STYLING ======================= */
+#service-div{
+    padding-top: 4rem;
+}
+#service-box{
+    margin-top: 5rem;
+}
+#service-tagline{
+    font-size: 2.2rem;
+}
+#service-para{
+    font-size: 1.2rem;
+}
+#service-btn{
+    background-color: #fcc302;
+    color: #ffffff;
+    margin-top: 10px;
+}
+#service-img{
+    width: 450px;
+}
+#color-div{
+    background-color: #fcc302;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    bottom: 125px;
+    left: -27px;
+    z-index: -1;
+}
+
+/*  =========================== BLOG SECTION STYLING =============================== */
+#blog-div{
+    background-color: #fcc302;
+}
+.blog-box{
+    margin-top: 3rem;
+}
+#blog-heading{
+    padding: 10px 0;
+    font-weight: bold;
+    color: #ffffff;
+}
+#blog-discp{
+    color: #ffffff;
+}
+
+/* ============================= COUNTER ============================= */
+#counter-cover{
+    background: rgba(243, 219, 3, 0.815) url('../images/counter-cover.png');
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-blend-mode:lighten;
+    height: 400px;
+}
+#counter-heading{
+    font-weight: bold;
+}
+
+/* ============================= TEAM ========================= */
+#team-sec{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#team-tagline{
+    font-weight: bold;
+    font-size: 45px;
+}
+
+/* ABOUT AND CONTACT  */
+#Aboutandcont-sec{
+    padding: 5rem 0;
+}
+#About-sec li{
+    list-style: none;
+    padding-bottom: 7px;
+}
+#About-sec li a{
+    color: white;
+    text-decoration: none;
+}
+#contact-sec li{
+    list-style: none;
+    padding-bottom: 7px;
+
+}
+#contact-sec li a{
+    color: white;
+    text-decoration: none;
+}
+
+/* FOOTER  */
+#footer{
+    background-color: #fcc302;
+    color: #ffffff;
+}
+

@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <title>Veterinarian- A Pet Care</title>
+  </head>
+  <body>
+    <!-- ========================= START NAVBAR SECTION =======================  -->
+    <nav class="navbar navbar-expand-lg navbar-dark" id="top-nav">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+              <img src="./images/company-logo.png" style="width: 11.25rem;">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+            <form class="d-flex" id="searchform">
+              <input class="form-control me-2" type="search" placeholder="Search..." aria-label="Search" id="myForm">
+              <button class="btn btn-outline-success" type="submit" id="search-button"><i class="bi bi-search"></i></button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      
+    <!-- ========================= START CONTAINER SECTION =========================== -->
+      <div class="container-fluid">
+
+          <div class="row justify-content-center" id="banner">
+              <div class="col-md-6 col-11" id="banner-content">
+                <h1 id="banner-tagline">First I wanted to be<br> a veterinarian</h1>
+                <p id="banner-para">Lorem Ipsum available but the majority have <br>
+                    suffered alteration in some form, by injected <br>
+                    humour randomised words.</p>
+                <button type="button" class="btn" id="mybtn-1">Contact Us</button>    
+                <button type="button" class="btn" id="mybtn-2">Our Services</button>    
+              </div>
+              <div class="col-md-4 d-none d-md-block">
+                <img src="./images/dog-banner.png" class="img-fluid" id="banner-img">
+              </div>
+          </div>
+
+          <div class="row justify-content-center" id="service-div">
+            <div class="col-md-5 col-11" id="service-box">
+              <h3 id="service-tagline">As a veterinarian and<br>
+                lover of animals.</h3>
+              <P id="service-para">
+                Lorem Ipsum available but the majoty<br>
+                suffered alteration in some form, by<br>
+                humour randomised words.
+              </P>
+              <button type="button" class="btn" id="service-btn">Our Service</button>
+            </div>
+            <div class="col-md-5 pt-5">
+              <img src="./images/service-1.png" alt="Service" class="img-fluid" id="service-img">
+              <div id="color-div"></div>
+            </div>
+          </div>
+
+          <div class="row justify-content-evenly pt-3 pb-4" id="blog-div">
+            <h1 class="text-center pt-3 text-white">Title Here</h1>
+            <p class="text-center text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, <br>suscipit. Lorem, ipsum dolor.</p>
+            <div class="col-md-3 col-11 blog-box">
+              <img src="./images/pic-1.png" class="img-fluid">
+              <h4 class="text-center" id="blog-heading">veterinarian</h4>
+              <p class="text-center" id="blog-discp">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga nobis nam quia, animi voluptas eius.</p>
+            </div>
+            <div class="col-md-3 col-11 blog-box">
+              <img src="./images/pic-2.png" class="img-fluid">
+              <h4 class="text-center" id="blog-heading">veterinarian Care</h4>
+              <p class="text-center" id="blog-discp">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga nobis nam quia, animi voluptas eius.</p>
+            </div>
+            <div class="col-md-3 col-11 blog-box">
+              <img src="./images/pic-3.png" class="img-fluid">
+              <h4 class="text-center" id="blog-heading">Dental Care</h4>
+              <p class="text-center" id="blog-discp">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga nobis nam quia, animi voluptas eius.</p>
+            </div>
+          </div>
+
+          <div class="row justify-content-evenly text-center pt-5 pb-5" id="counter-cover">
+            <div class="col-md-3 pt-5">
+              <h1><i class="bi bi-heart-half"></i></h1>
+              <h5>+34793</h5>
+              <h4 id="counter-heading">Happy Clients</h4>
+            </div>
+            <div class="col-md-3 pt-5">
+              <h1><i class="bi bi-building"></i></h1>
+              <h5>+45382</h5>
+              <h4 id="counter-heading">Departments</h4>
+            </div>
+            <div class="col-md-3 pt-5">
+              <h1><i class="bi bi-eyedropper"></i></h1>
+              <h5>+54678</h5>
+              <h4 id="counter-heading">Vaccinations</h4>
+            </div>
+          </div>
+
+          <div class="row justify-content-evenly text-center" id="team-sec">
+            <h1 class="text-center" id="team-tagline">The Vetcare Team</h1>
+            <p class="text-center"> Lorem Ipsum available, but the majority have<br>
+              suffered alteration in some form.</p>
+            <div class="col-md-3 mb-4">
+              <img src="./images/team-1.png" class="img-fluid mb-3">
+              <h4>Jennifer Mullen</h4>
+              <p>VETERINARY</p>
+              <i class="bi bi-instagram" style="color: #fcc302;"></i>
+              <i class="bi bi-twitter" style="color: #fcc302;"></i>
+              <i class="bi bi-whatsapp" style="color: #fcc302;"></i>
+              <i class="bi bi-facebook" style="color: #fcc302;"></i>
+            </div>
+            <div class="col-md-3 mb-4">
+              <img src="./images/team-2.png" class="img-fluid mb-3">
+              <h4>Sheeren Collins</h4>
+              <p>ADMINISTRATION</p>
+              <i class="bi bi-instagram" style="color: #fcc302;"></i>
+              <i class="bi bi-twitter" style="color: #fcc302;"></i>
+              <i class="bi bi-whatsapp" style="color: #fcc302;"></i>
+              <i class="bi bi-facebook" style="color: #fcc302;"></i>
+            </div>
+            <div class="col-md-3 mb-4">
+              <img src="./images/team-3.png" class="img-fluid mb-3">
+              <h4>FIZAA HENDGE</h4>
+              <p>VETERINARY</p>
+              <i class="bi bi-instagram" style="color: #fcc302;"></i>
+              <i class="bi bi-twitter" style="color: #fcc302;"></i>
+              <i class="bi bi-whatsapp" style="color: #fcc302;"></i>
+              <i class="bi bi-facebook" style="color: #fcc302;"></i>
+            </div>
+          </div>
+
+          <div class="row justify-content-evenly bg-dark text-white" id="Aboutandcont-sec">
+            <div class="col-md-3 pb-5" id="About-sec">
+              <h4>About</h4>
+              <li><a href="#">History</a></li>
+              <li><a href="#">Our Team</a></li>
+              <li><a href="#">Brand Guidlines</a></li>
+              <li><a href="#">Terms & Condition</a></li>
+              <li><a href="#">Private Policy</a></li>
+            </div>
+            <div class="col-md-3 pb-5" id="contact-sec">
+              <h4>Services</h4>
+              <li><a href="#">History</a></li>
+              <li><a href="#">Our Team</a></li>
+              <li><a href="#">Brand Guidlines</a></li>
+              <li><a href="#">Terms & Condition</a></li>
+              <li><a href="#">Private Policy</a></li> 
+            </div>
+            <div class="col-md-3 pb-5">
+              <h4>Address</h4>
+              <p>
+                2301, Erwin Rd,<br>
+                Durham,<br>
+                NC 27710<br>
+                New Jersey,USA
+              </p>
+            </div>
+          </div>
+      </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
