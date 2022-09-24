@@ -1,9 +1,13 @@
 # Veterinarian- A Pet Care
 
-This design is created using HTML, CSS and Bootstrap. A complete responsive design :-)
+Hye Viewers ! This is mohit..... I created this web design using #HTML, #CSS and #bootstrap. This is complete responsive website :)
+I added some of screenshot of the design go and checkout below.
 
-Design Sample:
+Design Mockup:
 
-![pet care](https://user-images.githubusercontent.com/112326025/187258090-4541ab99-857d-4ffe-b09f-09ad66b119cf.PNG)
-![pet care2](https://user-images.githubusercontent.com/112326025/187258251-fbda0e8e-266b-4c80-b721-dc6e5d937990.PNG)
-![pet care3](https://user-images.githubusercontent.com/112326025/187258316-076d3d4e-24b1-49de-b76e-69a8eb2ef042.PNG)
+![Web-design mockup](https://user-images.githubusercontent.com/112326025/192095960-2568f675-a4ed-4cf2-9425-5e09ec4e1f9c.png)
+
+
+Complete Website Design:
+
+![web-screenshot](https://user-images.githubusercontent.com/112326025/192096076-1364f32b-7fb4-47ad-8f14-63cd40cff614.png)
