@@ -8,6 +8,6 @@ Design Mockup:
 ![Web-design mockup](https://user-images.githubusercontent.com/112326025/192095960-2568f675-a4ed-4cf2-9425-5e09ec4e1f9c.png)
 
 
-Complete Website Design:
+Complete Design Template:
 
 ![web-screenshot](https://user-images.githubusercontent.com/112326025/192096076-1364f32b-7fb4-47ad-8f14-63cd40cff614.png)
